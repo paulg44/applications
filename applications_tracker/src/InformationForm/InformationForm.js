@@ -1,6 +1,7 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
+import axios from "axios";
 
 function InformationForm() {
   // Options Array
@@ -45,10 +46,42 @@ function InformationForm() {
     console.log(techStack);
   }
 
-  function handleHaveYouApplied(e) {
+  // function handleHaveYouApplied(e) {
+  //   e.preventDefault();
+
+  //   setApplied(e.target.value);
+  // }
+
+  async function handleFormSubmission(e) {
     e.preventDefault();
 
-    setApplied(e.target.value);
+    const addNewCompanyToData = {
+      company: company,
+      location: location,
+      techStack: techStack,
+    };
+
+    try {
+      const response = await fetch("http://localhost:4040/addNewCompany", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(addNewCompanyToData),
+      });
+
+      if (response.ok) {
+        const jsonResponse = await response.json();
+        console.log(jsonResponse);
+      } else {
+        console.error(
+          "There was an error adding new company",
+          response.statusText
+        );
+      }
+    } catch (error) {
+      console.error("There was an error adding the company to data", error);
+    }
   }
 
   return (
@@ -57,7 +90,7 @@ function InformationForm() {
         <h1>Application Tracker</h1>
       </header>
       <div className="submitForm">
-        <Form>
+        <Form onSubmit={handleFormSubmission}>
           <Form.Group className="mb-3">
             <Form.Label htmlFor="companyName">Company Name</Form.Label>
             <Form.Control
