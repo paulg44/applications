@@ -23,8 +23,8 @@ app.post("/addNewCompany", (req, res) => {
     const jsonData = JSON.parse(data);
     const companies = jsonData.companies;
 
-    // const newId = companies.length ? companies[companies.length - 1].id + 1 : 1;
-    // newCompany.id = newId;
+    const newId = companies.length ? companies[companies.length - 1].id + 1 : 1;
+    newCompany.id = newId;
 
     companies.push(newCompany);
 

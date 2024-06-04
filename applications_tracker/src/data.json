@@ -18,11 +18,11 @@
       "location": "Nottingham",
       "techStack": "C++"
     },
-    {},
     {
       "company": "School of Code",
       "location": "Derby",
-      "techStack": "React"
+      "techStack": "React",
+      "id": 4
     }
   ]
 }
