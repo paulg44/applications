@@ -1,0 +1,22 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "company": "Rusty Monkey",
+      "location": "Nottingham",
+      "techStack": "React"
+    },
+    {
+      "id": 2,
+      "company": "Sky",
+      "location": "Leeds",
+      "techStack": "C#"
+    },
+    {
+      "id": 3,
+      "company": "Multiplayer Group",
+      "location": "Nottingham",
+      "techStack": "C++"
+    }
+  ]
+}
