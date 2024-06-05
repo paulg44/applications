@@ -23,6 +23,30 @@
       "location": "Derby",
       "techStack": "React",
       "id": 4
+    },
+    {
+      "company": "Shardlow St James",
+      "location": "derby",
+      "techStack": "Python",
+      "id": 5
+    },
+    {
+      "company": "School of Code",
+      "location": "Derby",
+      "techStack": "C#",
+      "id": 6
+    },
+    {
+      "company": "School of Code",
+      "location": "Derby",
+      "techStack": "C#",
+      "id": 7
+    },
+    {
+      "company": "School of Code",
+      "location": "Derby",
+      "techStack": "Ruby",
+      "id": 8
     }
   ]
 }
