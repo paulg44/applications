@@ -13,6 +13,7 @@ import data from "../data.json";
 
 function Stats() {
   const techCounts = {};
+  console.log(techCounts);
 
   data.companies.forEach((company) => {
     const tech = company.techStack;
@@ -25,6 +26,17 @@ function Stats() {
 
   const sortedArr = Object.entries(techCounts).sort((a, b) => b[1] - a[1]);
   console.log(sortedArr);
+
+  let totalCountForPercentage = 0;
+  for (const key in techCounts) {
+    totalCountForPercentage += techCounts[key];
+  }
+  console.log(totalCountForPercentage);
+
+  function percentageOfTechStack(techValue, total) {
+    const percent = (techValue / total) * 100;
+    return percent.toFixed(1);
+  }
 
   return (
     <div>
@@ -40,6 +52,7 @@ function Stats() {
             <tr key={tech}>
               <td>{tech}</td>
               <td>{count}</td>
+              <td>{percentageOfTechStack(count, totalCountForPercentage)}%</td>
             </tr>
           ))}
         </tbody>
