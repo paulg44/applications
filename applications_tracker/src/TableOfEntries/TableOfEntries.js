@@ -1,9 +1,10 @@
+import "./TableOfEntries.css";
 import Table from "react-bootstrap/Table";
 import data from "../data.json";
 
 function TableOfEntries() {
   return (
-    <Table striped bordered hover>
+    <Table striped bordered variant="dark">
       <thead>
         <tr>
           <th>Company</th>

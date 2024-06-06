@@ -7,12 +7,12 @@ import Stats from "./Stats/Stats";
 function App() {
   return (
     <div className="app">
-      <div className="displayTable">
-        <TableOfEntries />
-      </div>
       <div className="formStats">
         <InformationForm />
         <Stats />
+      </div>
+      <div className="displayTable">
+        <TableOfEntries />
       </div>
     </div>
   );

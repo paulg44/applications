@@ -4,16 +4,17 @@
   padding: 0;
 }
 
-body {
-  height: 100vh;
+.app {
+  background-color: grey;
+  width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: scroll;
+  justify-content: space-evenly;
 }
 
-.app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.displayTable {
+  margin-top: 20px;
+}
+
+.formStats {
 }
