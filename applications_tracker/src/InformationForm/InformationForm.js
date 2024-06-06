@@ -17,6 +17,8 @@ function InformationForm() {
     "Next.js",
     "Node.js",
     "Express",
+    "PHP",
+    "Java",
   ];
 
   const [company, setCompany] = useState("");
@@ -81,6 +83,10 @@ function InformationForm() {
     } catch (error) {
       console.error("There was an error adding the company to data", error);
     }
+
+    setCompany("");
+    setLocation("");
+    setTechStack("");
   }
 
   return (

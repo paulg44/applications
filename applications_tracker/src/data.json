@@ -19,58 +19,118 @@
       "techStack": "C++"
     },
     {
-      "company": "School of Code",
-      "location": "Derby",
+      "company": "Cromwell",
+      "location": "Leicester",
       "techStack": "React",
       "id": 4
     },
     {
-      "company": "Shardlow St James",
-      "location": "derby",
-      "techStack": "Python",
+      "company": "Wordline ",
+      "location": "Nottingham",
+      "techStack": "JavaScript",
       "id": 5
     },
     {
-      "company": "School of Code",
+      "company": "Pay With Click",
       "location": "Derby",
       "techStack": "C#",
       "id": 6
     },
     {
-      "company": "School of Code",
+      "company": "Tracasis",
       "location": "Derby",
-      "techStack": "C#",
+      "techStack": "Python",
       "id": 7
     },
     {
-      "company": "School of Code",
+      "company": "Pektron",
       "location": "Derby",
-      "techStack": "Ruby",
+      "techStack": "C#",
       "id": 8
     },
     {
-      "company": "Shardlow St James",
+      "company": "Right Legal Group",
       "location": "Derby",
-      "techStack": "React",
+      "techStack": "C#",
       "id": 9
     },
     {
-      "company": "Shardlow St James",
-      "location": "Derby",
-      "techStack": "Ruby",
+      "company": "Point Four",
+      "location": "Nottingham",
+      "techStack": "PHP",
       "id": 10
     },
     {
-      "company": "Shardlow St James",
+      "company": "Cooper Parry",
       "location": "Derby",
-      "techStack": "React",
+      "techStack": "SQL",
       "id": 11
     },
     {
-      "company": "",
-      "location": "",
-      "techStack": "JavaScript",
+      "company": "Central Technology",
+      "location": "Chesterfield",
+      "techStack": "C#",
       "id": 12
+    },
+    {
+      "company": "Cyber1st",
+      "location": "Derby",
+      "techStack": "C++",
+      "id": 13
+    },
+    {
+      "company": "Travail",
+      "location": "Nottingham",
+      "techStack": "C++",
+      "id": 14
+    },
+    {
+      "company": "Bulkhead",
+      "location": "Derby",
+      "techStack": "C++",
+      "id": 15
+    },
+    {
+      "company": "UST Global",
+      "location": "Nottingham",
+      "techStack": "Java",
+      "id": 16
+    },
+    {
+      "company": "Almac Group",
+      "location": "Loughborough",
+      "techStack": "C#",
+      "id": 17
+    },
+    {
+      "company": "Intellect Group",
+      "location": "Nottingham",
+      "techStack": "React",
+      "id": 18
+    },
+    {
+      "company": "DevTank",
+      "location": "Derby",
+      "techStack": "Python",
+      "id": 19
+    },
+    {
+      "company": "Strafe Creative",
+      "location": "Nottingham",
+      "techStack": "JavaScript",
+      "id": 20
+    },
+    {
+      "company": "Fifteen",
+      "location": "Nottingham",
+      "techStack": "JavaScript",
+      "id": 21
+    },
+    {
+      "company": "The People Experience Hub",
+      "location": "Northampton",
+      "techStack": "React",
+      "id": 22
     }
   ]
 }

@@ -44,7 +44,9 @@ function Stats() {
       <Table>
         <thead>
           <tr>
-            <td>Tech Stack Counter</td>
+            <th>Tech Stack</th>
+            <th>Count</th>
+            <th>Percentage</th>
           </tr>
         </thead>
         <tbody>
