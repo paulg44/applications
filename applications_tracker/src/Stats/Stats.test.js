@@ -8,3 +8,9 @@ test("counter increments", () => {
 
   expect(statsHeader).toHaveLength(3);
 });
+
+// test("expect percent function to be called", async () => {
+//   const mockPercent = jest.fn();
+//   render(<Stats percentageOfTechStack={mockPercent}/>);
+
+// });

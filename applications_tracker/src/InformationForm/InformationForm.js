@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 
-function InformationForm(handleFormSubmission) {
+function InformationForm({ onCompanyAdd }) {
   // Options Array
   const optionsArray = [
     "React",
@@ -57,7 +57,7 @@ function InformationForm(handleFormSubmission) {
   async function handleFormSubmission(e) {
     e.preventDefault();
 
-    // onCompanyAdd({ company, location });
+    onCompanyAdd({ company, location, techStack });
 
     const addNewCompanyToData = {
       company: company,

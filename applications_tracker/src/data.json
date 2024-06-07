@@ -131,6 +131,12 @@
       "location": "Northampton",
       "techStack": "React",
       "id": 22
+    },
+    {
+      "company": "School of Code",
+      "location": "Derby",
+      "techStack": "React",
+      "id": 23
     }
   ]
 }
