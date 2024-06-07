@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import user from "@testing-library/user-event";
 import InformationForm from "./InformationForm";
 
@@ -28,19 +28,3 @@ test("it updates value of inputs", async () => {
   expect(companyInput).toHaveValue("test company");
   expect(locationInput).toHaveValue("test location");
 });
-
-// test("it calls handleFormSubmission on form submit", async () => {
-//   const mock = jest.fn();
-//   render(<InformationForm handleFormSubmission={mock} />);
-
-//   const companyInput = screen.getByRole("textbox", { name: /company name/i });
-//   const locationInput = screen.getByRole("textbox", { name: /location/i });
-
-//   fireEvent.change(companyInput, { target: { value: "test company" } });
-//   fireEvent.change(locationInput, { target: { value: "test location" } });
-
-//   const button = screen.getByRole("button");
-//   fireEvent.click(button);
-
-//   expect(mock).toHaveBeenCalled();
-// });

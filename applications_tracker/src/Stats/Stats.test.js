@@ -4,7 +4,7 @@ import Stats from "./Stats";
 test("counter increments", () => {
   render(<Stats />);
 
-  //   const counters = screen.getAllByRole("listitem");
+  const statsHeader = screen.getAllByRole("columnheader");
 
-  //   expect(counters).toBeInTheDocument();
+  expect(statsHeader).toHaveLength(3);
 });
