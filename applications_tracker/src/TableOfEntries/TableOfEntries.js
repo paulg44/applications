@@ -13,13 +13,16 @@ function TableOfEntries() {
         </tr>
       </thead>
       <tbody>
-        {data.companies.map((comp) => (
-          <tr key={comp.id}>
-            <td>{comp.company}</td>
-            <td>{comp.location}</td>
-            <td>{comp.techStack}</td>
-          </tr>
-        ))}
+        {data.companies
+          .map((comp) => (
+            <tr key={comp.id}>
+              <td>{comp.company}</td>
+              <td>{comp.location}</td>
+              <td>{comp.techStack}</td>
+            </tr>
+          ))
+          .sort()
+          .reverse()}
       </tbody>
     </Table>
   );
