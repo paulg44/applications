@@ -5,16 +5,31 @@
 }
 
 .app {
-  background-color: grey;
+  position: relative;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(58, 9, 121, 1) 26%,
+    rgba(0, 212, 255, 1) 100%
+  );
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .displayTable {
   margin-top: 20px;
+  margin-left: 50%;
 }
 
 .formStats {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  top: 0;
+  left: 10%;
 }

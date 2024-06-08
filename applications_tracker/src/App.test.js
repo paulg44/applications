@@ -3,5 +3,5 @@ import App from "./App";
 
 test("everything renders in app", async () => {
   const mock = jest.fn();
-  render(<App onCompanyAdd={mock} />);
+  render(<App />);
 });

@@ -4,7 +4,7 @@ import data from "../data.json";
 
 function TableOfEntries() {
   return (
-    <Table striped bordered variant="dark">
+    <Table striped bordered hover className="table">
       <thead>
         <tr>
           <th>Company</th>

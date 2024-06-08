@@ -7,8 +7,8 @@ Compare for percentages and output the data
 ## Sort by Location ##
 Compare tech stacks against locations 
 */
-
 import Table from "react-bootstrap/Table";
+import "./Stats.css";
 import data from "../data.json";
 
 function Stats() {
@@ -39,9 +39,9 @@ function Stats() {
   }
 
   return (
-    <div>
+    <div className="statsTableContainer">
       <h2>Tech Stack Stats</h2>
-      <Table>
+      <Table hover className="statsTable">
         <thead>
           <tr>
             <th>Tech Stack</th>
@@ -49,10 +49,10 @@ function Stats() {
             <th>Percentage</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="hover">
           {sortedArr.map(([tech, count]) => (
             <tr key={tech}>
-              <td>{tech}</td>
+              <td className="hover">{tech}</td>
               <td>{count}</td>
               <td>{percentageOfTechStack(count, totalCountForPercentage)}%</td>
             </tr>

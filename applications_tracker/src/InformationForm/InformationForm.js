@@ -95,7 +95,7 @@ function InformationForm({ onCompanyAdd }) {
   return (
     <div className="App">
       <header>
-        <h1>Application Tracker</h1>
+        <h1>Tech Tracker</h1>
       </header>
       <div className="submitForm">
         <Form onSubmit={handleFormSubmission}>
