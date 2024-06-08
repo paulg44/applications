@@ -1,7 +1,10 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("everything renders in app", async () => {
-  const mock = jest.fn();
+test("total companies renders", async () => {
   render(<App />);
+
+  const total = screen.getByRole("heading", { name: /total companies/i });
+
+  expect(total).toBeInTheDocument();
 });

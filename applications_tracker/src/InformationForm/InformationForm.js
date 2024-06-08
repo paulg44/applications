@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 
-function InformationForm({ onCompanyAdd }) {
+function InformationForm() {
   // Options Array
   const optionsArray = [
     "React",
@@ -25,7 +25,6 @@ function InformationForm({ onCompanyAdd }) {
   const [company, setCompany] = useState("");
   const [location, setLocation] = useState("");
   const [techStack, setTechStack] = useState("");
-  // const [applied, setApplied] = useState(false);
 
   function handleCompanyInputValue(e) {
     e.preventDefault();
@@ -48,16 +47,8 @@ function InformationForm({ onCompanyAdd }) {
     console.log(techStack);
   }
 
-  // function handleHaveYouApplied(e) {
-  //   e.preventDefault();
-
-  //   setApplied(e.target.value);
-  // }
-
   async function handleFormSubmission(e) {
     e.preventDefault();
-
-    onCompanyAdd({ company, location, techStack });
 
     const addNewCompanyToData = {
       company: company,
@@ -137,15 +128,6 @@ function InformationForm({ onCompanyAdd }) {
             </Form.Select>
           </Form.Group>
 
-          {/* <Form.Group className="mb-3">
-            <Form.Label htmlFor="appliedYesNo">Applied?</Form.Label>
-            <Form.Check
-              id="appliedYesNo"
-              type="checkbox"
-              value={applied}
-              onChange={handleHaveYouApplied}
-            />
-          </Form.Group> */}
           <Button variant="primary" type="submit">
             Add to table
           </Button>

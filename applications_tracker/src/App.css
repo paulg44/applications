@@ -25,11 +25,16 @@
 }
 
 .formStats {
+  border: 2px solid rgba(0, 212, 255, 1);
+  border-radius: 20px;
+  padding: 250px 30px;
   position: fixed;
-  height: 100vh;
+  height: 50vh;
+  width: 50%;
   display: flex;
   align-items: center;
-
-  top: 0;
-  left: 10%;
+  justify-content: space-around;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
 }
