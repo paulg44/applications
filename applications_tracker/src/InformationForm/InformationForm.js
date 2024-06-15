@@ -20,6 +20,7 @@ function InformationForm() {
     "Express",
     "PHP",
     "Java",
+    "Swift",
   ];
 
   const [company, setCompany] = useState("");

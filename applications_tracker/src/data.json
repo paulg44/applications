@@ -137,6 +137,60 @@
       "location": "Loughborough",
       "techStack": "SQL",
       "id": 23
+    },
+    {
+      "company": "London Stone",
+      "location": "Staffordshire",
+      "techStack": "JavaScript",
+      "id": 24
+    },
+    {
+      "company": "Fruition ",
+      "location": "Leeds",
+      "techStack": "JavaScript",
+      "id": 25
+    },
+    {
+      "company": "Gem Solutions",
+      "location": "Remote",
+      "techStack": "JavaScript",
+      "id": 26
+    },
+    {
+      "company": "Bet365",
+      "location": "Stoke",
+      "techStack": "Swift",
+      "id": 27
+    },
+    {
+      "company": "Hiring People ",
+      "location": "Sheffield",
+      "techStack": "C#",
+      "id": 28
+    },
+    {
+      "company": "GIOS Technology",
+      "location": "Derby",
+      "techStack": "Python",
+      "id": 29
+    },
+    {
+      "company": "Fishbourne Solutions",
+      "location": "Derby",
+      "techStack": "React",
+      "id": 30
+    },
+    {
+      "company": "Opus Recruitment ",
+      "location": "Derby/Notts",
+      "techStack": "React",
+      "id": 31
+    },
+    {
+      "company": "E-Team",
+      "location": "Derby",
+      "techStack": "Python",
+      "id": 32
     }
   ]
 }
